@@ -1,0 +1,125 @@
+.admin {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+.admin__title {
+  font-size: 25px;
+  margin-top: 100px;
+}
+.admin__inner {
+  display: block;
+  margin-top: 20px;
+  height: 500px;
+  background-color: #d9d9d9;
+  border-radius: 16px;
+}
+.admin__list {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.admin__list-link {
+  padding: 20px 0px;
+  font-size: 18px;
+  text-align: start;
+  border-bottom: 1px solid #000;
+}
+.info {
+  padding: 0px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.info__block {
+  display: flex;
+}
+
+.info__title {
+  font-size: 19px;
+  padding-right: 10px;
+}
+.info__name,
+.info__email {
+  font-family: "Inter", sans-serif;
+}
+.info__button {
+  background: transparent;
+  width: 18px;
+  height: 18px;
+  transition: transform 0.3s ease-in-out;
+}
+svg {
+  width: 100%;
+  height: 100%;
+  margin-left: 10px;
+  fill:#42CE2B;
+}
+.info__button:hover {
+  transform: scale(1.15);
+}
+.modal__overview {
+  position: fixed; /* фиксированное положение */
+  z-index: 1050;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5); /* цвет фона */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal__form {
+  position: relative;
+  width: 600px;
+  height: 300px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 25px;
+}
+.modal__change {
+  width: 100%;
+  height: 40px;
+  background-color: #d9d9d9;
+  font-size: 18px;
+  padding-left: 15px;
+}
+.modal__button{
+  text-align: center;
+}
+.modal__btn{
+  display: inline-block;
+  margin-top: 32px;
+  background: transparent;
+  cursor: pointer;
+  padding: 15px 19px;
+  border: 2px solid #42CE2B;
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+}
+.modal__btn:hover{
+  background-color: #42CE2B;
+  color: #fff;
+}
+.change__title{
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+.admin__delete-block{
+  border-left: 1px solid #000 ;
+}
+.admin__btn-delete{
+  height: 30px;
+  background: transparent;
+  max-width: 100px;
+  transition: transform 0.3s ease-in-out;
+}
+.admin__btn-delete:hover {
+  transform: scale(1.15);
+}

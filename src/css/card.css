@@ -1,0 +1,27 @@
+.card{
+    display: block;
+    max-width:300px;
+    background-color: #8FFF7C;
+    border-radius: 16px;
+    font-family: "Inter", sans-serif;
+    word-wrap: break-word;
+    margin: 0px 28px 100px 0px;
+}
+.card-title{
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+.card-info{
+    font-size: 24px;
+}
+.card__inner{
+    padding: 22px 70px 50px 18px;
+}
+.card__row{
+    display: flex;
+    flex-direction: column;
+}
+.card__reminder-info,
+.card__date-info{
+    margin-bottom: 44px;
+}
